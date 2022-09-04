@@ -1,0 +1,217 @@
+.webMainDiv {
+    /* margin-top: 80px; */
+    margin-bottom: 100px;
+    background-color: rgb(255, 255, 255);
+    font-family: Helvetica;
+}
+
+.mainWebDiv {
+    background-image: url("./webserv.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 470px;
+    position: relative;
+    width: 100%;
+    box-shadow: 0 0 20px 20px;
+}
+
+.webTitle {
+    padding-top: 80px;
+    color: rgb(0, 255, 128);
+    font-size: 90px;
+    text-align: center;
+    position: relative;
+}
+
+.mainWebDiv:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.65);
+}
+
+.webTitleUnderText {
+    position: relative;
+    color: rgb(0, 153, 255);
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.whatWeDoDiv {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.whatWeDoTitle {
+    font-size: 50px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+}
+
+.whatWeDoTitle1 {
+    font-size: 50px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    margin-top: 80px;
+}
+
+.ptags {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px auto;
+}
+
+.websites {
+    width: 30%;
+}
+
+.websitesDivTitleText {
+    font-size: 50px;
+}
+
+.dev {
+    width: 300px;
+}
+
+.websitePText {
+    width: 80%;
+    margin: 20px auto;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(128, 128, 128);
+}
+
+@media screen and (max-width: 1155px) {
+    .info {
+        display: block;
+    }
+
+    .websites {
+        width: 100%;
+    }
+}
+
+.whatWeDoText {
+    width: 100%;
+    margin: 0 auto;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+}
+
+.whatWeOfferDiv {
+    font-size: 30px;
+    background-color: black;
+    box-shadow: 0 0 25px 15px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.whatWeOffer {
+    font-size: 60px;
+    color: rgb(255, 74, 74);
+}
+
+.whatWeOfferText {
+    color: rgb(255, 255, 255);
+}
+
+.websiteEst {
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+
+.websiteEst a {
+    color: rgb(78, 179, 78);
+    font-weight: 700;
+    text-decoration: none !important;
+}
+
+.questionLogo {
+    width: 15%;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 1155px) {
+    .questionLogo {
+        width: 30%;
+        margin-bottom: 0;
+    }
+}
+
+.webReactLogo {
+    width: 40%;
+    margin-bottom: 15px;
+}
+
+.ourProcessTitle {
+    font-size: 80px;
+    font-weight: 600;
+    color: rgb(58, 139, 105);
+    margin-top: 80px;
+}
+
+.ourProcessInfo {
+    display: flex;
+    justify-content: space-between;
+    margin: 45px;
+}
+
+.ourProcessText {
+    font-size: 20px;
+    color: rgb(77, 77, 77);
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 1100px) {
+    .ourProcessInfo {
+        display: block;
+    }
+}
+
+.diss {
+    width: 80px;
+    margin-bottom: 20px;
+}
+
+.layoutImg {
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+.approvalImg {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.codingImg {
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+.reviewImg {
+    width: 100px;
+    margin-bottom: 30px;
+}
+
+.debugImg {
+    width: 110px;
+    margin-bottom: 20px;
+}
+
+.launchImg {
+    width: 150px;
+    margin-bottom: 20px;
+}

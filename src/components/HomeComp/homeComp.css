@@ -1,0 +1,527 @@
+.homeCompMainDiv {
+    background-color: rgb(245, 245, 245);
+    font-family: Helvetica;
+}
+
+.homeLogo {
+    width: 150px;
+    margin-top: 10px;
+    border-radius: 50%;
+    box-shadow: 0 0 85px 10px rgb(188, 200, 207);
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.firstLetter {
+    color: rgb(0, 174, 255);
+}
+
+.believe {
+    font-weight: 700;
+    font-size: 21px;
+    color: rgb(68, 68, 68);
+}
+
+.ourWhy {
+    color: rgb(0, 0, 0);
+}
+
+.text-focus-in {
+    -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+    animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+@-webkit-keyframes text-focus-in {
+    0% {
+        -webkit-filter: blur(12px);
+        filter: blur(12px);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-filter: blur(0px);
+        filter: blur(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes text-focus-in {
+    0% {
+        -webkit-filter: blur(12px);
+        filter: blur(12px);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-filter: blur(0px);
+        filter: blur(0px);
+        opacity: 1;
+    }
+}
+
+.tracking-in-contract-bck-bottom {
+    -webkit-animation: tracking-in-contract-bck-bottom 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    animation: tracking-in-contract-bck-bottom 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+@-webkit-keyframes tracking-in-contract-bck-bottom {
+    0% {
+        letter-spacing: 1em;
+        -webkit-transform: translateZ(400px) translateY(300px);
+        transform: translateZ(400px) translateY(300px);
+        opacity: 0;
+    }
+
+    40% {
+        opacity: 0.6;
+    }
+
+    100% {
+        -webkit-transform: translateZ(0) translateY(0);
+        transform: translateZ(0) translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes tracking-in-contract-bck-bottom {
+    0% {
+        letter-spacing: 1em;
+        -webkit-transform: translateZ(400px) translateY(300px);
+        transform: translateZ(400px) translateY(300px);
+        opacity: 0;
+    }
+
+    40% {
+        opacity: 0.6;
+    }
+
+    100% {
+        -webkit-transform: translateZ(0) translateY(0);
+        transform: translateZ(0) translateY(0);
+        opacity: 1;
+    }
+}
+
+.companyTitleDiv {
+    font-size: 80px;
+    text-align: center;
+    background-image: url("./headerphoto.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px;
+    position: relative;
+}
+
+.companyTitleDiv:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+@media screen and (max-width: 800px) {
+    .companyTitle {
+        font-size: 50px;
+    }
+}
+
+.companyTitle {
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+}
+
+.companyUnderText {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(0, 255, 85);
+}
+
+.helpYou {
+    text-align: center;
+    margin-top: 60px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.helpYouP {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(0, 103, 172);
+}
+
+.whyDiv {
+    max-width: 900px;
+    text-align: center;
+    margin-top: 60px;
+    margin-left: 50px;
+    margin-right: auto;
+    font-size: larger;
+    font-weight: 700;
+    background-color: rgb(218, 218, 218) !important;
+    box-shadow: 0 10px 30px 0px;
+}
+
+@media screen and (max-width: 1000px) {
+    .whyDiv {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.estimate {
+    width: 28%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: 120px;
+    margin-top: -700px;
+    background-color: rgb(147, 255, 183) !important;
+    box-shadow: 0 0 30px 5px rgb(92, 92, 92);
+}
+
+.required:after {
+    content: "*";
+    color: red;
+}
+
+.estimate input {
+    display: block;
+    width: 90%;
+    border-radius: 5px;
+    border: 0;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.estimate textarea {
+    display: block;
+    width: 90%;
+    height: 80px;
+    border-radius: 5px;
+    border: 0;
+}
+
+.estimate button {
+    display: block;
+    margin: 20px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(119, 139, 165);
+    color: white;
+    font-weight: 600;
+}
+
+.estimate p {
+    font-size: 15px;
+    color: rgb(255, 0, 0);
+    font-weight: 500;
+    text-align: center;
+}
+
+@media screen and (max-width: 1520px) {
+    .estimate {
+        width: 40%;
+        margin-right: auto;
+        margin-top: 40px;
+    }
+
+    .whyDiv {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .estimate {
+        width: 80%;
+    }
+}
+
+.fbadMainDiv {
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.fbad {
+    width: 900px;
+}
+
+.fbadtextdiv {
+    width: 100%;
+    /* background: url("https://msntechnologies.com/wp-content/uploads/2018/04/welive-branding-digital-marketing-background-2.png"); */
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding-top: 17%;
+    font-weight: 700;
+}
+
+.fbadtextTitle {
+    font-size: 60px;
+}
+
+.fbadtexttext {
+    color: rgb(240, 253, 60);
+    font-size: 28px;
+}
+
+.unolist {
+    font-size: 28px;
+    color: rgb(255, 0, 0);
+}
+
+@media screen and (max-width: 1799px) {
+    .fbad {
+        width: 800px;
+    }
+
+    .fbadtextTitle {
+        font-size: 60px;
+    }
+
+    .fbadtexttext {
+        font-size: 25px;
+    }
+
+    .unolist {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 1599px) {
+    .fbad {
+        width: 600px;
+    }
+
+    .fbadtextTitle {
+        font-size: 40px;
+    }
+
+    .fbadtexttext {
+        font-size: 19px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .fbadtextTitle {
+        font-size: 30px;
+    }
+
+    .fbad {
+        width: 100%;
+    }
+
+    .fbadtextdiv {
+        padding-top: 14%;
+    }
+
+    .unolist {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .fbadtextTitle {
+        font-size: 50px;
+    }
+
+    .fbadMainDiv {
+        display: block;
+    }
+
+    .fbadImgDiv {
+        width: 100%;
+    }
+
+    .fbadtextdiv {
+        padding-bottom: 20%;
+    }
+
+    .fbadtextdiv {
+        padding-top: 17%;
+    }
+}
+
+.increase {
+    text-align: center;
+    font-size: 20px;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 50px;
+    font-weight: 600;
+    color: rgb(114, 114, 114);
+}
+
+.fbin {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.testimonials {
+    width: 100%;
+    height: 600px;
+    margin: 50px auto;
+    text-align: center;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 40px;
+}
+
+.testiText {
+    width: 70%;
+    margin: 10px auto;
+}
+
+.artImg {
+    width: 150px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+@media screen and (max-width: 1520px) {
+    .artImg {
+        width: 180px;
+    }
+}
+
+@media screen and (max-width: 1160px) {
+    .testimonials {
+        height: auto;
+    }
+}
+
+.allCards {
+    display: flex;
+}
+
+.abootCard {
+    margin-right: 50px;
+}
+
+.portCard {
+    margin-left: 50px;
+}
+
+.projectCar {
+    margin-top: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 450px;
+    border-radius: 5px !important;
+    background-image: linear-gradient(black, white);
+    box-shadow: 0 0 50px 20px rgb(21, 50, 73);
+}
+
+@media screen and (max-width: 1000px) {
+    .projectCar {
+        width: 300px;
+    }
+}
+
+.ourProjectsLink {
+    padding-top: 10px;
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+    font-family: 'Newsreader', serif;
+}
+
+.ourProjectsLink a:hover {
+    text-decoration: none;
+}
+
+.aboutCar {
+    margin-top: 100px;
+    width: 450px;
+    border-radius: 5px !important;
+    background-image: linear-gradient(black, rgb(94, 163, 195), white);
+    box-shadow: 0 0 50px 20px rgb(21, 50, 73);
+}
+
+.webCar {
+    margin-top: 100px;
+    width: 450px;
+    border-radius: 5px !important;
+    background-image: linear-gradient(black, rgb(99, 197, 99), white);
+    margin-right: 20px;
+}
+
+@media screen and (max-width: 1450px) {
+    .allCards {
+        display: block;
+    }
+
+    .aboutCar {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .webCar {
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .aboutCar {
+        width: 300px;
+    }
+
+    .webCar {
+        width: 300px;
+    }
+}
+
+.stackLogos {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+    align-items: center;
+}
+
+.stackLogos img {
+    width: 200px;
+}
+
+.reactImg {
+    width: 170px !important;
+}
+
+.htmlImg {
+    width: 170px !important;
+}
+
+.cssImg {
+    width: 215px !important;
+}
+
+@media screen and (max-width: 1250px) {
+    .stackLogos {
+        display: block;
+        text-align: center;
+    }
+
+    .stackLogos img {
+        width: 150px;
+        margin-bottom: 60px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .jsImg {
+        width: 200px !important;
+    }
+}

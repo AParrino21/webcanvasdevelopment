@@ -1,0 +1,226 @@
+.marketHeader {
+    text-align: center;
+    padding-bottom: 150px;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url('https://coverfiles.alphacoders.com/497/49796.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.marketHeaderTitle {
+    font-size: 75px;
+    font-family: Helvetica;
+    color: white;
+    padding-top: 100px;
+}
+
+.marketHeaderText {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+
+.fbAdsDiv {
+    text-align: center;
+    margin-top: 100px;
+    font-family: Helvetica;
+}
+
+.fbAdsImg {
+    width: 22%;
+}
+
+.bronze {
+    cursor: pointer;
+}
+
+.silver {
+    cursor: pointer;
+}
+
+.gold {
+    cursor: pointer;
+}
+
+.marketEstimate {
+    max-width: 450px;
+    margin: 50px auto;
+    text-align: center;
+    background-color: rgb(243, 243, 243) !important;
+    font-family: Helvetica;
+    box-shadow: 0 0 30px 10px rgb(190, 190, 190);
+}
+
+.marketEstimate input {
+    display: block;
+    margin: 0 auto;
+    width: 250px;
+}
+
+.marketEstimate textarea {
+    display: block;
+    margin: 5px auto;
+    width: 330px;
+    height: 150px;
+}
+
+.marketEstimate label {
+    font-size: 15px;
+}
+
+.marketEstimate p {
+    padding: 20px;
+    font-size: 15px;
+    color: rgb(255, 0, 0);
+    font-weight: 500;
+}
+
+@media screen and (max-width: 1000px) {
+    .marketEstimate {
+        max-width: 370px;
+    }
+}
+
+.world {
+    background: url("./mapAni.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+    text-align: center;
+    margin: 50px auto;
+    width: 100%;
+}
+
+.connect {
+    color: white;
+    font-size: 30px;
+}
+
+.connWorld {
+    color: white;
+    font-size: 45px;
+}
+
+@media screen and (max-width: 1000px) {
+    .fbAdsImg {
+        display: block;
+        margin: 0 auto;
+        width: 30%;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .fbAdsImg {
+        width: 70%;
+    }
+
+    .world {
+        background-size: contain;
+    }
+
+    .connect {
+        color: black;
+        font-size: 20px;
+    }
+
+    .connWorld {
+        color: black;
+        font-size: 30px;
+    }
+}
+
+.marketingTitle {
+    text-align: center;
+    font-size: 60px;
+    font-family: Helvetica;
+    font-weight: 500;
+}
+
+.marketingUnderTitle {
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.marketingText {
+    width: 80%;
+    margin: 0px auto;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Helvetica;
+    color: rgb(119, 119, 119);
+}
+
+.moreInfoDivs {
+    font-family: Helvetica;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.moreInfoDivs h2 {
+    font-weight: 700;
+}
+
+.pageDeets {
+    width: 30%;
+    margin: 30px auto;
+}
+
+@media screen and (max-width: 1000px) {
+    .pageDeets {
+        width: 60%;
+    }
+}
+
+.special {
+    text-align: center;
+    /* background-color: rgb(236, 236, 236); */
+    color: rgb(0, 0, 0);
+    width: 100%;
+    margin: 100px auto;
+    border-radius: 10px;
+    /* box-shadow: 0 0 50px 50px rgb(161, 161, 161); */
+}
+
+.specialImgDiv div {
+    margin-bottom: 50px;
+    display: flex;
+}
+
+.specialImgDiv div div {
+    display: block;
+    width: 100%;
+    justify-content: space-between !important;
+}
+
+.specialImgDiv p {
+    font-size: 25px;
+    /* font-weight: 500; */
+    padding: 10px;
+}
+
+.specialImg {
+    width: 200px;
+}
+
+@media screen and (max-width: 950px) {
+    .specialImgDiv div {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .special {
+        width: 95%;
+    }
+
+    .specialImgDiv p {
+        font-size: 18px;
+    }
+
+    .specialImg {
+        width: 80px;
+    }
+}

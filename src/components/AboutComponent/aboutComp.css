@@ -1,0 +1,41 @@
+.mainAboutDiv {
+    margin-bottom: 330px;
+}
+
+.aboutDiv {
+    margin-top: 60px;
+    text-align: center;
+    font-family: Helvetica;
+}
+
+.aboutTitle {
+    font-size: 50px;
+}
+
+.aboutDescription {
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 17px;
+}
+
+.aboutDescriptionTitle {
+    font-size: 25px;
+}
+
+.me {
+    margin-top: 30px;
+    border-radius: 50%;
+}
+
+.gitLinkLinks {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between !important;
+}
+
+.gitLinkLinks img {
+    width: 50px;
+}

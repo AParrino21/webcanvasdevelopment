@@ -1,0 +1,24 @@
+.navMainDiv {
+    box-shadow: 0 0 30px 5px rgb(92, 92, 92);
+    padding: 20px !important;
+    /* position: fixed !important; */
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+
+.logo {
+    width: 40px;
+}
+
+.navBarLinks>a {
+    text-decoration: none !important;
+    margin-left: 30px;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 991.5px) {
+    .navBarLinks>a {
+        margin-left: 0;
+    }
+}
